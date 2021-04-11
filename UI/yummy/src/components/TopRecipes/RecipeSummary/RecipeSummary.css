@@ -1,0 +1,43 @@
+.RecipeSummary {
+    flex-flow: column;
+    /*width: 100%;*/
+    text-align: center;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    cursor: pointer;
+    /*position: relative;*/
+    background: white;
+    margin: 15px auto;
+    /*box-shadow: 0 0 30px 2px #015;*/
+    box-shadow: 0 0 30px 2px #7497e0;
+    /*background-color: #323030;*/
+}
+
+.RecipeSummary:Hover {
+    box-shadow: 0 0 30px 2px #015;
+}
+
+
+.RecipeImage {
+    /*background-color: white;*/
+    padding: 2px;
+    height: 30%;
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 50px;
+    align-content: center;
+    float: right;
+}
+
+.RecipeImage img {
+    height: 70%;
+    width: 80%;
+}
+
+.Grade {
+    display: flex;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
