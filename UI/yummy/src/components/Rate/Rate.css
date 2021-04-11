@@ -1,0 +1,68 @@
+/*.numberCircle {*/
+/*    border-radius: 70%;*/
+/*    width: 60px;*/
+/*    height: 65px;*/
+/*    padding: 6px;*/
+/*    background: #fff;*/
+/*    border: 5px solid #ead76f;*/
+/*    color: #000025;*/
+/*    text-align: center;*/
+
+/*    font: 32px Arial, "Showcard Gothic";*/
+/*    font-family: "Showcard Gothic", "Courier New", monospace;*/
+/*}*/
+
+/*.medal {*/
+/*    width: 100px;*/
+/*    height: 90px;*/
+/*}*/
+
+.coin {
+    border: 1px solid #CA5D3E;
+    border-radius: 50%;
+    background: #F0CD73;
+    width: 38px;
+    height: 38px;
+    position: relative;
+    margin: -15px auto 0 auto;
+    box-shadow: 0 0 3px 0 #989898;
+    font: 20px Arial, "Showcard Gothic";
+    font-family: "Showcard Gothic", "Courier New", monospace;
+}
+/*.coin:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    transform: translate(-50%, -50%);*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    width: 35px;*/
+/*    height: 35px;*/
+/*    border-radius: inherit;*/
+/*    box-shadow: 0 0 0 9px #D9B867;*/
+/*}*/
+
+
+/*.ribbon {*/
+/*    width: 80px;*/
+/*    height: 70px;*/
+/*    margin: 0 auto;*/
+/*    position: relative;*/
+/*}*/
+/*.ribbon:before,*/
+/*.ribbon:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 35px;*/
+/*    height: 100%;*/
+/*    top: 0;*/
+/*}*/
+/*.ribbon:before {*/
+/*    right: 0;*/
+/*    background: #30110E;*/
+/*    transform: skew(-28deg);*/
+/*}*/
+/*.ribbon:after {*/
+/*    background: #EF7E76;*/
+/*    transform: skew(28deg);*/
+/*}*/
+

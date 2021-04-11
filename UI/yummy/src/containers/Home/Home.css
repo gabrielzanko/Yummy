@@ -1,0 +1,38 @@
+.Home {
+    justify-content: space-between;
+    /*background-color: #ffffff;*/
+    display: flex;
+    flex-flow: row;
+    padding: 10px 10px;
+}
+
+.TopRecipes {
+    height: 40%;
+    float: left;
+    width: 25%;
+    /*background-color: #ffffff;*/
+    align-items: self-start;
+    padding: 10px 10px;
+    margin: 0 10px 0 10px;
+    background-color: transparent;
+}
+
+.Posts {
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 0 10px 0 10px;
+}
+
+.ControlPanel {
+
+    height: 50%;
+    float: right;
+    width: 25%;
+    background-color: transparent;
+    align-items: self-end;
+    margin: 0 10px 0 10px;
+}
