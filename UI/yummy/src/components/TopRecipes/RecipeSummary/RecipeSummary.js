@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './RecipeSummary.css'
 import Rate from "../../Rate/Rate";
-import fries from "../../../resources/images/fries.jpg";
+import fries from "../../../resources/images/testingImages/fries.jpg";
 
 const recipeSummary = props => {
     let image = null; // default

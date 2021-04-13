@@ -1,0 +1,93 @@
+.RecipeBuilderPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    background-image: url("../../resources/images/kitchenImages/kitchen5.jfif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.RecipeBuilder {
+    display: flex;
+    flex-flow: row;
+    height: 80%;
+}
+
+.CookingTable {
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 0 10px 0 10px;
+}
+
+.LeftControlPanel {
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-flow: column;
+    align-items: self-start;
+    padding: 10px 10px;
+    margin: 0 10px 0 10px;
+    background-color: transparent;
+}
+
+.RightControlPanel {
+    float: right;
+    width: 25%;
+    background-color: transparent;
+    align-items: self-end;
+    margin: 0 10px 0 10px;
+}
+
+.SectionsController {
+    display: flex;
+    flex-flow: column;
+    height: 20%;
+    padding: 10px;
+}
+
+.SectionsNav {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.GenerateButton {
+
+}
+
+/*.Shine {*/
+/*    width:100%;*/
+/*    -webkit-animation-name: ShineAnimation;*/
+/*    -webkit-animation-duration: 5s;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    -webkit-animation-timing-function: cubic-bezier(.12,.89,.98,.47);*/
+/*}*/
+
+
+/*@-webkit-keyframes ShineAnimation{*/
+/*    from {*/
+/*        background-repeat:no-repeat;*/
+/*        background-image:-webkit-linear-gradient(*/
+/*                top left,*/
+/*                rgba(255, 255, 255, 0.0) 0%,*/
+/*                rgba(255, 255, 255, 0.0) 45%,*/
+/*                rgba(255, 255, 255, 0.5) 48%,*/
+/*                rgba(255, 255, 255, 0.8) 50%,*/
+/*                rgba(255, 255, 255, 0.5) 52%,*/
+/*                rgba(255, 255, 255, 0.0) 57%,*/
+/*                rgba(255, 255, 255, 0.0) 100%*/
+/*        );*/
+/*        background-position:-250px -250px;*/
+/*        background-size: 600px 600px*/
+/*    }*/
+/*    to {*/
+/*        background-repeat:no-repeat;*/
+/*        background-position:250px 250px;*/
+/*    }*/
+/*}*/

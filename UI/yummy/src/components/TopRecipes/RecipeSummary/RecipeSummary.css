@@ -11,12 +11,12 @@
     /*box-shadow: 0 0 30px 2px #015;*/
     box-shadow: 0 0 30px 2px #7497e0;
     /*background-color: #323030;*/
+    height: 25vh;
 }
 
 .RecipeSummary:Hover {
     box-shadow: 0 0 30px 2px #015;
 }
-
 
 .RecipeImage {
     /*background-color: white;*/
